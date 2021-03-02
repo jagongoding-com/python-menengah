@@ -1,0 +1,16 @@
+print(type(None), '->', bool(None))
+print(type(0), '->', bool(0))
+print(type(0.0), '->', bool(0.0))
+print(type(""), '->', bool(""))
+print(type([]), '->', bool([]))
+print(type(()), '->', bool(()))
+print(type({}), '->', bool({}))
+
+print("-" * 20)
+
+print(type(5), '->', bool(5))
+print(type(-14.5), '->', bool(-14.5))
+print(type("Aku"), '->', bool("Aku"))
+print(type([1, 2, 3]), '->', bool([1, 2, 3]))
+print(type(("a", "b", False)), '->', bool(("a", "b", False)))
+print(type({ 'nama': 'Lendis Fabri' }), '->', bool({ 'nama': 'Lendis Fabri' }))
